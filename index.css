@@ -1,0 +1,33 @@
+body {
+  background-image: url(image/imagen/Diseño\ sin\ título\ \(6\).png);
+  display:flex;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  text-decoration-line: none;
+}
+
+img{
+  width: 280px;
+}
+
+.boton{
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  padding-right: 250px;
+  padding-left: 240px ;
+  position:fixed;
+  text-align: center;
+  background-color: rgb(165, 26, 26);
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.boton:hover{
+  background-color: rgb(255, 0, 0);
+  
+}
+
+
+
