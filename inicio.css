@@ -1,12 +1,13 @@
 body{
    background-image: url(image/imagen/Diseño\ sin\ título\ \(12\).png); 
    background-repeat: no-repeat;
-   background-size: 1500px 800px;
+   background-size: 1500px 950px;
+ 
 }
 
 img{
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 250px;
     width: 300px;
 
@@ -56,9 +57,19 @@ img{
 
 .texto{
     color:rgb(235, 202, 15);
-    font-size: 20px;
+    font-size: 32px;
     text-align: center;
     font-family: "Kanit", serif;
-    font-weight: 800;
+    font-weight: 800px;
     font-style: normal;
 }
+ .texto1{
+    margin-top: -50px;
+    color:rgb(235, 202, 15);
+    font-size: 32px;
+    text-align: center;
+    font-family: "Kanit", serif;
+    font-weight: 800px;
+    font-style: normal;
+
+ }
