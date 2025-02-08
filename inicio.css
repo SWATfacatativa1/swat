@@ -1,8 +1,7 @@
-body{
-   background-image: url(image/imagen/Diseño\ sin\ título\ \(12\).png); 
-   background-repeat: no-repeat;
-   background-size: 1500px 950px;
- 
+body {
+    background: url(image/imagen/Diseño\ sin\ título\ \(16\).png) no-repeat center fixed;
+    position: relative;
+    background-size: cover;
 }
 
 img{
@@ -73,3 +72,27 @@ img{
     font-style: normal;
 
  }
+
+ @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+    section {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 10px;
+    }
+    main {
+      padding: 10px;
+    }
+    section {
+      padding: 10px;
+    }
+  }
+  
+  
