@@ -29,5 +29,28 @@ img{
   
 }
 
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+  main {
+    padding: 10px;
+  }
+  section {
+    padding: 10px;
+  }
+}
+
+
 
 
